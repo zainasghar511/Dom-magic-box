@@ -3,13 +3,23 @@
     width: 200px;
     background-color: gray;
     margin: 20px;
-    transition: 0.3s;
+    transition: all 0.9s ease;
     cursor: pointer;
 }
 .box:hover{
     background-color: blueviolet;
     transform: scale(1.1);
 }
-.blue-bg{background-color:blue ;}
+/* .blue-bg{background-color:blue ;} */
 .circle{border-radius: 50%;}
 .hide{display: none;}
+button{
+    cursor: pointer;
+    background-color: rgb(197, 192, 192);
+    color: black;
+    border:2px solid rgb(197, 192, 192) ;
+}
+button:hover{
+    background-color: grey;
+    color: white;
+}
