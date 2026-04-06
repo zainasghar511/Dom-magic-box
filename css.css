@@ -1,0 +1,15 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    margin: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+.blue-bg{background-color:blue ;}
+.circle{border-radius: 50%;}
+.hide{display: none;}
